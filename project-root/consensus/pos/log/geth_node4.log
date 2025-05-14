@@ -1,0 +1,284 @@
+INFO [04-17|14:09:09.562] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-17|14:09:09.564] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [04-17|14:09:09.575] Found deprecated node list file /mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [04-17|14:09:09.592] Set global gas cap                       cap=50,000,000
+INFO [04-17|14:09:09.596] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-17|14:09:09.597] Allocated cache and file handles         database=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/chaindata cache=512.00MiB handles=524,288
+INFO [04-17|14:09:09.698] Opened ancient database                  database=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/chaindata/ancient/chain readonly=false
+INFO [04-17|14:09:09.705]  
+INFO [04-17|14:09:09.705] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [04-17|14:09:09.705] Chain ID:  12345 (unknown) 
+INFO [04-17|14:09:09.705] Consensus: Ethash (proof-of-work) 
+INFO [04-17|14:09:09.706]  
+INFO [04-17|14:09:09.706] Pre-Merge hard forks: 
+INFO [04-17|14:09:09.706]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [04-17|14:09:09.706]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [04-17|14:09:09.707]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [04-17|14:09:09.707]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [04-17|14:09:09.707]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [04-17|14:09:09.707]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [04-17|14:09:09.707]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [04-17|14:09:09.708]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [04-17|14:09:09.708]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [04-17|14:09:09.708]  - London:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [04-17|14:09:09.708]  
+INFO [04-17|14:09:09.709] The Merge is not yet available for this network! 
+INFO [04-17|14:09:09.709]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [04-17|14:09:09.709] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [04-17|14:09:09.709]  
+INFO [04-17|14:09:09.795] Disk storage enabled for ethash caches   dir=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/ethash count=3
+INFO [04-17|14:09:09.796] Disk storage enabled for ethash DAGs     dir=/home/ali/.ethash count=2
+INFO [04-17|14:09:09.796] Initialising Ethereum protocol           network=12345 dbversion=<nil>
+INFO [04-17|14:09:09.797] Loaded most recent local header          number=0 hash=a125fe..c220e5 td=2,097,151 age=56y1mo5d
+INFO [04-17|14:09:09.798] Loaded most recent local full block      number=0 hash=a125fe..c220e5 td=2,097,151 age=56y1mo5d
+INFO [04-17|14:09:09.798] Loaded most recent local fast block      number=0 hash=a125fe..c220e5 td=2,097,151 age=56y1mo5d
+WARN [04-17|14:09:09.798] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [04-17|14:09:09.799] Rebuilding state snapshot 
+INFO [04-17|14:09:09.801] Resuming state snapshot generation       root=bbdd6a..d51bec accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.073ms
+INFO [04-17|14:09:09.802] Generated state snapshot                 accounts=4 slots=0 storage=200.00B dangling=0 elapsed=2.511ms
+INFO [04-17|14:09:09.809] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-17|14:09:09.809] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-17|14:09:09.810] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [04-17|14:09:09.810] Engine API enabled                       protocol=eth
+WARN [04-17|14:09:09.810] Engine API started but chain not configured for merge yet 
+INFO [04-17|14:09:09.811] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [04-17|14:09:09.859] New local node record                    seq=1,744,888,149,853 id=b0b28cb8405f692f ip=127.0.0.1 udp=0 tcp=30306
+INFO [04-17|14:09:09.859] Started P2P networking                   self="enode://b17e9d3ee8d258814cd1f32071b6d891d8bb60390870d63320df45b008d83870819fa39a638e29b6739128826440e408cc3d0dc022ef206caf15257147039053@127.0.0.1:30306?discport=0"
+INFO [04-17|14:09:09.864] Loaded JWT secret file                   path=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/jwtsecret crc32=0xff04ee93
+INFO [04-17|14:09:09.866] HTTP server started                      endpoint=[::]:8548 auth=false prefix= cors= vhosts=localhost
+INFO [04-17|14:09:09.866] WebSocket enabled                        url=ws://[::]:8648
+INFO [04-17|14:09:09.866] WebSocket enabled                        url=ws://127.0.0.1:8748
+INFO [04-17|14:09:09.867] HTTP server started                      endpoint=127.0.0.1:8748 auth=true  prefix= cors=localhost vhosts=localhost
+WARN [04-17|14:09:09.873] ------------------------------------------------------------------- 
+WARN [04-17|14:09:09.874] Referring to accounts by order in the keystore folder is dangerous! 
+WARN [04-17|14:09:09.874] This functionality is deprecated and will be removed in the future! 
+WARN [04-17|14:09:09.874] Please use explicit addresses! (can search via `geth account list`) 
+WARN [04-17|14:09:09.875] ------------------------------------------------------------------- 
+INFO [04-17|14:09:14.294] Unlocked account                         address=0x68d8164C163A5E0C001c1A66293e5E128Ffc7DA4
+INFO [04-17|14:09:14.294] Transaction pool price threshold updated price=0
+INFO [04-17|14:09:14.295] Updated mining threads                   threads=1
+INFO [04-17|14:09:14.295] Transaction pool price threshold updated price=1,000,000,000
+INFO [04-17|14:09:14.296] Etherbase automatically configured       address=0x68d8164C163A5E0C001c1A66293e5E128Ffc7DA4
+INFO [04-17|14:09:14.296] Commit new sealing work                  number=1 sealhash=d19fd8..9693f0 uncles=0 txs=0 gas=0 fees=0 elapsed="335.299µs"
+INFO [04-17|14:09:14.297] Commit new sealing work                  number=1 sealhash=d19fd8..9693f0 uncles=0 txs=0 gas=0 fees=0 elapsed="796.484µs"
+INFO [04-17|14:09:42.089] Commit new sealing work                  number=1 sealhash=1b6e0f..8a45c0 uncles=0 txs=1 gas=351,718 fees=4.396475e-05 elapsed="952.983µs"
+ERROR[04-17|14:09:48.797] Failed to generate mapped ethash cache   epoch=0 err="operation not supported"
+ERROR[04-17|14:09:49.994] Failed to generate mapped ethash cache   epoch=1 err="operation not supported"
+WARN [04-17|14:09:49.995] Snap syncing, discarded propagated block number=1 hash=1c5c17..441c8d
+INFO [04-17|14:09:52.507] Successfully sealed new block            number=1 sealhash=1b6e0f..8a45c0 hash=192794..344e53 elapsed=10.417s
+INFO [04-17|14:09:52.507] 🔨 mined potential block                  number=1 hash=192794..344e53
+INFO [04-17|14:09:52.508] Commit new sealing work                  number=2 sealhash=953c0b..f4c12c uncles=0 txs=0 gas=0       fees=0            elapsed="683.49µs"
+INFO [04-17|14:09:52.509] Commit new sealing work                  number=2 sealhash=953c0b..f4c12c uncles=0 txs=0 gas=0       fees=0            elapsed=1.398ms
+INFO [04-17|14:10:06.248] Block synchronisation started 
+INFO [04-17|14:10:06.249] Mining aborted due to sync 
+INFO [04-17|14:10:06.259] Imported new block headers               count=2 elapsed=6.968ms     number=2 hash=43d23e..f0d7fc
+INFO [04-17|14:10:06.261] Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=285.06B throttle=8192
+INFO [04-17|14:10:06.265] State sync in progress                   synced=0.72% state=202.00B accounts=1@202.00B slots=0@0.00B codes=0@0.00B eta=1.886s
+INFO [04-17|14:10:06.278] State sync in progress                   synced=100.00% state=1018.00B accounts=5@1018.00B slots=0@0.00B codes=0@0.00B eta=-66ns
+INFO [04-17|14:10:06.283] State heal in progress                   accounts=3@170.00B  slots=0@0.00B codes=0@0.00B nodes=4@524.00B pending=0
+INFO [04-17|14:10:06.285] Imported new block receipts              count=1 elapsed="591.079µs" number=1 hash=1c5c17..441c8d age=56s      size=1.60KiB
+INFO [04-17|14:10:06.287] Rebuilding state snapshot 
+INFO [04-17|14:10:06.288] Committed new head block                 number=1 hash=1c5c17..441c8d
+INFO [04-17|14:10:06.288] Resuming state snapshot generation       root=fd159d..e8833e accounts=0          slots=0       storage=0.00B   dangling=0 elapsed="797.893µs"
+INFO [04-17|14:10:06.289] Generated state snapshot                 accounts=5          slots=0       storage=275.00B dangling=0 elapsed=1.920ms
+INFO [04-17|14:10:06.296] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.849ms     mgasps=0.000 number=2 hash=43d23e..f0d7fc dirty=1.55KiB
+INFO [04-17|14:10:09.254] Snap sync complete, auto disabling 
+INFO [04-17|14:10:09.254] Commit new sealing work                  number=3 sealhash=968c4c..425c09 uncles=0 txs=0 gas=0       fees=0            elapsed="397.918µs"
+INFO [04-17|14:10:09.255] Commit new sealing work                  number=3 sealhash=968c4c..425c09 uncles=0 txs=0 gas=0       fees=0            elapsed="923.888µs"
+INFO [04-17|14:10:20.466] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.518ms     mgasps=0.000 number=3 hash=3b7004..1d68ff dirty=2.09KiB
+INFO [04-17|14:10:20.467] Commit new sealing work                  number=4 sealhash=5f7d6c..605842 uncles=0 txs=0 gas=0       fees=0            elapsed="260.439µs"
+INFO [04-17|14:10:20.467] Commit new sealing work                  number=4 sealhash=5f7d6c..605842 uncles=0 txs=0 gas=0       fees=0            elapsed="865.278µs"
+INFO [04-17|14:10:20.479] Chain reorg detected                     number=2 hash=43d23e..f0d7fc drop=1 dropfrom=3b7004..1d68ff add=1 addfrom=5ced7d..bd3b9b
+INFO [04-17|14:10:20.480] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.033ms     mgasps=0.000 number=3 hash=5ced7d..bd3b9b dirty=2.63KiB
+INFO [04-17|14:10:20.481] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="393.15µs"
+INFO [04-17|14:10:20.482] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="995.497µs"
+INFO [04-17|14:10:23.482] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="378.2µs"
+INFO [04-17|14:10:24.093] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="404.093µs"
+INFO [04-17|14:10:27.094] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="538.321µs"
+INFO [04-17|14:10:30.094] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="543.012µs"
+INFO [04-17|14:10:33.095] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="619.628µs"
+INFO [04-17|14:10:36.096] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="710.042µs"
+INFO [04-17|14:10:39.097] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="910.237µs"
+INFO [04-17|14:10:42.096] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="637.773µs"
+INFO [04-17|14:10:45.099] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=2.561ms
+INFO [04-17|14:10:48.098] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.120ms
+INFO [04-17|14:10:51.098] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="954.438µs"
+INFO [04-17|14:10:52.016] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.387ms
+INFO [04-17|14:10:55.016] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="727.583µs"
+INFO [04-17|14:10:58.018] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.098ms
+INFO [04-17|14:11:01.018] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="994.955µs"
+INFO [04-17|14:11:04.019] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.232ms
+INFO [04-17|14:11:07.020] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.215ms
+INFO [04-17|14:11:10.020] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed="911.645µs"
+INFO [04-17|14:11:13.020] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.298ms
+INFO [04-17|14:11:16.022] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.695ms
+INFO [04-17|14:11:19.023] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.958ms
+INFO [04-17|14:11:19.723] Commit new sealing work                  number=4 sealhash=b9cfc5..fe0c2e uncles=1 txs=0 gas=0       fees=0            elapsed=1.951ms
+INFO [04-17|14:11:21.610] Chain reorg detected                     number=2 hash=43d23e..f0d7fc drop=1 dropfrom=5ced7d..bd3b9b add=2 addfrom=cec255..06640e
+INFO [04-17|14:11:21.612] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=18.902ms    mgasps=0.000 number=4 hash=cec255..06640e age=1m16s    dirty=3.41KiB
+INFO [04-17|14:11:21.614] Commit new sealing work                  number=5 sealhash=80f1eb..b1ecd7 uncles=0 txs=0 gas=0       fees=0            elapsed="399.867µs"
+INFO [04-17|14:11:21.628] Commit new sealing work                  number=5 sealhash=80f1eb..b1ecd7 uncles=0 txs=0 gas=0       fees=0            elapsed=14.772ms
+INFO [04-17|14:11:24.616] Commit new sealing work                  number=5 sealhash=80f1eb..b1ecd7 uncles=0 txs=0 gas=0       fees=0            elapsed=1.579ms
+INFO [04-17|14:11:26.131] Successfully sealed new block            number=5 sealhash=80f1eb..b1ecd7 hash=358760..629a74 elapsed=4.516s
+INFO [04-17|14:11:26.131] 🔨 mined potential block                  number=5 hash=358760..629a74
+INFO [04-17|14:11:26.132] Commit new sealing work                  number=6 sealhash=cdea32..4d4515 uncles=0 txs=0 gas=0       fees=0            elapsed="691.915µs"
+INFO [04-17|14:11:26.146] Commit new sealing work                  number=6 sealhash=cdea32..4d4515 uncles=0 txs=0 gas=0       fees=0            elapsed=14.759ms
+INFO [04-17|14:11:29.133] Commit new sealing work                  number=6 sealhash=cdea32..4d4515 uncles=0 txs=0 gas=0       fees=0            elapsed=1.532ms
+INFO [04-17|14:11:32.134] Commit new sealing work                  number=6 sealhash=cdea32..4d4515 uncles=0 txs=0 gas=0       fees=0            elapsed=1.593ms
+INFO [04-17|14:11:32.593] Imported new chain segment               blocks=1 txs=1783 mgas=82.790 elapsed=336.603ms   mgasps=245.958 number=6 hash=109759..b1d10d dirty=502.88KiB
+INFO [04-17|14:11:32.613] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed=12.484ms
+INFO [04-17|14:11:32.623] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed=22.182ms
+INFO [04-17|14:11:35.602] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed="513.403µs"
+INFO [04-17|14:11:38.602] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed="521.854µs"
+INFO [04-17|14:11:41.603] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed="598.446µs"
+INFO [04-17|14:11:44.603] Commit new sealing work                  number=7 sealhash=b54968..526fcc uncles=0 txs=0    gas=0       fees=0            elapsed="449.701µs"
+INFO [04-17|14:11:46.762] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=14.800ms    mgasps=0.000   number=7 hash=1469bf..2522dd dirty=503.42KiB
+INFO [04-17|14:11:46.763] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="277.664µs"
+INFO [04-17|14:11:46.765] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed=1.878ms
+INFO [04-17|14:11:47.643] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="557.604µs"
+INFO [04-17|14:11:50.643] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="564.646µs"
+INFO [04-17|14:11:53.643] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="687.716µs"
+INFO [04-17|14:11:56.644] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="622.931µs"
+INFO [04-17|14:11:59.645] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="718.807µs"
+INFO [04-17|14:12:02.645] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="770.159µs"
+INFO [04-17|14:12:05.646] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="771.459µs"
+INFO [04-17|14:12:08.646] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="664.856µs"
+INFO [04-17|14:12:11.647] Commit new sealing work                  number=8 sealhash=64b7a0..850444 uncles=0 txs=0    gas=0       fees=0            elapsed="948.155µs"
+INFO [04-17|14:12:12.039] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=21.666ms    mgasps=0.000   number=8 hash=790385..487ba6 dirty=503.96KiB
+INFO [04-17|14:12:12.040] 😱 block lost                             number=1 hash=192794..344e53
+INFO [04-17|14:12:12.041] Commit new sealing work                  number=9 sealhash=a765e3..b1df10 uncles=0 txs=0    gas=0       fees=0            elapsed=1.008ms
+INFO [04-17|14:12:12.046] Commit new sealing work                  number=9 sealhash=a765e3..b1df10 uncles=0 txs=0    gas=0       fees=0            elapsed=6.158ms
+INFO [04-17|14:12:12.786] Commit new sealing work                  number=9 sealhash=a765e3..b1df10 uncles=0 txs=0    gas=0       fees=0            elapsed=1.152ms
+INFO [04-17|14:12:15.786] Commit new sealing work                  number=9 sealhash=a765e3..b1df10 uncles=0 txs=0    gas=0       fees=0            elapsed="821.51µs"
+INFO [04-17|14:12:18.788] Commit new sealing work                  number=9 sealhash=a765e3..b1df10 uncles=0 txs=0    gas=0       fees=0            elapsed=1.628ms
+INFO [04-17|14:12:19.392] Successfully sealed new block            number=9 sealhash=a765e3..b1df10 hash=2953cc..3b10d5 elapsed=9.607s
+INFO [04-17|14:12:19.393] 🔨 mined potential block                  number=9 hash=2953cc..3b10d5
+INFO [04-17|14:12:19.393] Commit new sealing work                  number=10 sealhash=33ff0c..c590ad uncles=0 txs=0    gas=0       fees=0            elapsed="366.933µs"
+INFO [04-17|14:12:19.403] Commit new sealing work                  number=10 sealhash=33ff0c..c590ad uncles=0 txs=0    gas=0       fees=0            elapsed=10.081ms
+INFO [04-17|14:12:22.395] Commit new sealing work                  number=10 sealhash=33ff0c..c590ad uncles=0 txs=0    gas=0       fees=0            elapsed=1.295ms
+INFO [04-17|14:12:25.395] Commit new sealing work                  number=10 sealhash=33ff0c..c590ad uncles=0 txs=0    gas=0       fees=0            elapsed=1.170ms
+INFO [04-17|14:12:35.447] Successfully sealed new block            number=10 sealhash=33ff0c..c590ad hash=f3d56c..79b0ff elapsed=16.054s
+INFO [04-17|14:12:35.447] 🔨 mined potential block                  number=10 hash=f3d56c..79b0ff
+INFO [04-17|14:12:35.448] Commit new sealing work                  number=11 sealhash=3dd95e..c63090 uncles=0 txs=0    gas=0       fees=0            elapsed="748.817µs"
+INFO [04-17|14:12:35.459] Commit new sealing work                  number=11 sealhash=3dd95e..c63090 uncles=0 txs=0    gas=0       fees=0            elapsed=11.865ms
+INFO [04-17|14:12:37.031] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=11.382ms    mgasps=0.000   number=11 hash=e8071e..810ce2 dirty=505.58KiB
+INFO [04-17|14:12:37.032] Commit new sealing work                  number=12 sealhash=303ded..bf444f uncles=0 txs=0    gas=0       fees=0            elapsed="344.832µs"
+INFO [04-17|14:12:37.042] Commit new sealing work                  number=12 sealhash=303ded..bf444f uncles=0 txs=0    gas=0       fees=0            elapsed=10.163ms
+INFO [04-17|14:12:54.298] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.384ms     mgasps=0.000   number=12 hash=d86cd1..14e7f4 dirty=506.12KiB
+INFO [04-17|14:12:54.298] 🔗 block reached canonical chain          number=5  hash=358760..629a74
+INFO [04-17|14:12:54.299] Commit new sealing work                  number=13 sealhash=3207b4..5bfa1c uncles=0 txs=0    gas=0       fees=0            elapsed="969.021µs"
+INFO [04-17|14:12:54.307] Commit new sealing work                  number=13 sealhash=3207b4..5bfa1c uncles=0 txs=0    gas=0       fees=0            elapsed=8.752ms
+INFO [04-17|14:13:27.580] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.476ms     mgasps=0.000   number=13 hash=b76a5e..cf2e15 dirty=506.66KiB
+INFO [04-17|14:13:27.582] Commit new sealing work                  number=14 sealhash=fa4a6c..5b9158 uncles=0 txs=0    gas=0       fees=0            elapsed="314.066µs"
+INFO [04-17|14:13:27.593] Commit new sealing work                  number=14 sealhash=fa4a6c..5b9158 uncles=0 txs=0    gas=0       fees=0            elapsed=11.451ms
+INFO [04-17|14:13:57.554] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.575ms     mgasps=0.000   number=14 hash=7c3cfb..7b2c8d dirty=507.20KiB
+INFO [04-17|14:13:57.563] Commit new sealing work                  number=15 sealhash=ce96d2..baf9dc uncles=0 txs=0    gas=0       fees=0            elapsed="299.007µs"
+INFO [04-17|14:13:57.564] Commit new sealing work                  number=15 sealhash=ce96d2..baf9dc uncles=0 txs=0    gas=0       fees=0            elapsed="935.263µs"
+INFO [04-17|14:14:33.072] Imported new chain segment               blocks=1 txs=1217 mgas=56.527 elapsed=230.318ms   mgasps=245.431 number=15 hash=dc1ad4..a1f7d5 dirty=1015.66KiB
+INFO [04-17|14:14:33.078] Commit new sealing work                  number=16 sealhash=a2423d..7ed109 uncles=0 txs=0    gas=0       fees=0            elapsed=4.977ms
+INFO [04-17|14:14:33.086] Commit new sealing work                  number=16 sealhash=a2423d..7ed109 uncles=0 txs=0    gas=0       fees=0            elapsed=13.667ms
+INFO [04-17|14:14:43.302] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.745ms     mgasps=0.000   number=16 hash=a22a22..5b7415 dirty=1016.20KiB
+INFO [04-17|14:14:43.303] 🔗 block reached canonical chain          number=9  hash=2953cc..3b10d5
+INFO [04-17|14:14:43.304] Commit new sealing work                  number=17 sealhash=ca7401..f19cd5 uncles=0 txs=0    gas=0       fees=0            elapsed="670.706µs"
+INFO [04-17|14:14:43.304] Commit new sealing work                  number=17 sealhash=ca7401..f19cd5 uncles=0 txs=0    gas=0       fees=0            elapsed=1.191ms
+INFO [04-17|14:14:44.253] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=11.078ms    mgasps=0.000   number=17 hash=45fdb1..79ea08 dirty=1016.74KiB
+INFO [04-17|14:14:44.253] 🔗 block reached canonical chain          number=10 hash=f3d56c..79b0ff
+INFO [04-17|14:14:44.254] Commit new sealing work                  number=18 sealhash=d8262d..e3ec00 uncles=0 txs=0    gas=0       fees=0            elapsed="734.95µs"
+INFO [04-17|14:14:44.254] Commit new sealing work                  number=18 sealhash=d8262d..e3ec00 uncles=0 txs=0    gas=0       fees=0            elapsed=1.364ms
+INFO [04-17|14:15:03.287] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.315ms     mgasps=0.000   number=18 hash=34ad06..1bf967 dirty=1017.29KiB
+INFO [04-17|14:15:03.288] Commit new sealing work                  number=19 sealhash=5673e6..0b5f89 uncles=0 txs=0    gas=0       fees=0            elapsed="278.423µs"
+INFO [04-17|14:15:03.288] Commit new sealing work                  number=19 sealhash=5673e6..0b5f89 uncles=0 txs=0    gas=0       fees=0            elapsed="889.22µs"
+INFO [04-17|14:15:33.274] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.530ms     mgasps=0.000   number=19 hash=8c830b..a57534 dirty=1017.83KiB
+INFO [04-17|14:15:33.274] Commit new sealing work                  number=20 sealhash=7f7151..92a0ff uncles=0 txs=0    gas=0       fees=0            elapsed="239.422µs"
+INFO [04-17|14:15:33.275] Commit new sealing work                  number=20 sealhash=7f7151..92a0ff uncles=0 txs=0    gas=0       fees=0            elapsed="699.849µs"
+INFO [04-17|14:15:36.189] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=11.657ms    mgasps=0.000   number=20 hash=9217c7..a86730 dirty=1018.37KiB
+INFO [04-17|14:15:36.190] Commit new sealing work                  number=21 sealhash=693312..6d51a4 uncles=0 txs=0    gas=0       fees=0            elapsed="319.374µs"
+INFO [04-17|14:15:36.190] Commit new sealing work                  number=21 sealhash=693312..6d51a4 uncles=0 txs=0    gas=0       fees=0            elapsed="982.822µs"
+INFO [04-17|14:15:46.260] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.355ms     mgasps=0.000   number=21 hash=0bcd7e..f2d8ed dirty=1018.91KiB
+INFO [04-17|14:15:46.260] Commit new sealing work                  number=22 sealhash=73b875..b2d525 uncles=0 txs=0    gas=0       fees=0            elapsed="184.495µs"
+INFO [04-17|14:15:46.261] Commit new sealing work                  number=22 sealhash=73b875..b2d525 uncles=0 txs=0    gas=0       fees=0            elapsed="633.872µs"
+INFO [04-17|14:15:50.328] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.493ms     mgasps=0.000   number=22 hash=6f9555..5547fd dirty=1019.45KiB
+INFO [04-17|14:15:50.329] Commit new sealing work                  number=23 sealhash=f7fc99..7e3a0b uncles=0 txs=0    gas=0       fees=0            elapsed="230.105µs"
+INFO [04-17|14:15:50.329] Commit new sealing work                  number=23 sealhash=f7fc99..7e3a0b uncles=0 txs=0    gas=0       fees=0            elapsed="947.288µs"
+INFO [04-17|14:15:56.223] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.750ms     mgasps=0.000   number=23 hash=58f30c..e16a23 dirty=1019.99KiB
+INFO [04-17|14:15:56.224] Commit new sealing work                  number=24 sealhash=5a6a1c..9c1c1c uncles=0 txs=0    gas=0       fees=0            elapsed="329.124µs"
+INFO [04-17|14:15:56.225] Commit new sealing work                  number=24 sealhash=5a6a1c..9c1c1c uncles=0 txs=0    gas=0       fees=0            elapsed="882.178µs"
+INFO [04-17|14:15:59.898] Successfully sealed new block            number=24 sealhash=5a6a1c..9c1c1c hash=97e94c..763eb9 elapsed=3.674s
+INFO [04-17|14:15:59.899] 🔨 mined potential block                  number=24 hash=97e94c..763eb9
+INFO [04-17|14:15:59.900] Commit new sealing work                  number=25 sealhash=c71b7e..ca2a50 uncles=0 txs=0    gas=0       fees=0            elapsed="932.12µs"
+INFO [04-17|14:15:59.900] Commit new sealing work                  number=25 sealhash=c71b7e..ca2a50 uncles=0 txs=0    gas=0       fees=0            elapsed=1.670ms
+INFO [04-17|14:16:02.156] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.370ms     mgasps=0.000   number=25 hash=80b49d..069602 dirty=1021.07KiB
+INFO [04-17|14:16:02.157] Commit new sealing work                  number=26 sealhash=cc4fc6..c480b5 uncles=0 txs=0    gas=0       fees=0            elapsed="319.591µs"
+INFO [04-17|14:16:02.157] Commit new sealing work                  number=26 sealhash=cc4fc6..c480b5 uncles=0 txs=0    gas=0       fees=0            elapsed="769.292µs"
+INFO [04-17|14:16:06.854] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.944ms     mgasps=0.000   number=26 hash=77ed88..0851ab dirty=1021.61KiB
+INFO [04-17|14:16:06.855] Commit new sealing work                  number=27 sealhash=436cb5..8f6a33 uncles=0 txs=0    gas=0       fees=0            elapsed="273.44µs"
+INFO [04-17|14:16:06.855] Commit new sealing work                  number=27 sealhash=436cb5..8f6a33 uncles=0 txs=0    gas=0       fees=0            elapsed="852.386µs"
+INFO [04-17|14:16:10.917] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.174ms     mgasps=0.000   number=27 hash=4b37f0..7128d3 dirty=1022.15KiB
+INFO [04-17|14:16:10.917] Commit new sealing work                  number=28 sealhash=b298cd..c3c179 uncles=0 txs=0    gas=0       fees=0            elapsed="212.88µs"
+INFO [04-17|14:16:10.918] Commit new sealing work                  number=28 sealhash=b298cd..c3c179 uncles=0 txs=0    gas=0       fees=0            elapsed="695.082µs"
+INFO [04-17|14:16:12.228] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.261ms     mgasps=0.000   number=28 hash=27676b..f5e625 dirty=1022.69KiB
+INFO [04-17|14:16:12.228] Commit new sealing work                  number=29 sealhash=fce5d7..334112 uncles=0 txs=0    gas=0       fees=0            elapsed="335.083µs"
+INFO [04-17|14:16:12.229] Commit new sealing work                  number=29 sealhash=fce5d7..334112 uncles=0 txs=0    gas=0       fees=0            elapsed="856.286µs"
+INFO [04-17|14:16:18.424] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.264ms     mgasps=0.000   number=29 hash=f6cfcc..55eda6 dirty=1023.23KiB
+INFO [04-17|14:16:18.425] Commit new sealing work                  number=30 sealhash=24cc5a..f5ce1d uncles=0 txs=0    gas=0       fees=0            elapsed="238.664µs"
+INFO [04-17|14:16:18.426] Commit new sealing work                  number=30 sealhash=24cc5a..f5ce1d uncles=0 txs=0    gas=0       fees=0            elapsed=1.428ms
+INFO [04-17|14:16:41.582] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=10.848ms    mgasps=0.000   number=30 hash=7e7c85..4ccb43 dirty=1023.77KiB
+INFO [04-17|14:16:41.584] Commit new sealing work                  number=31 sealhash=443d44..1787ad uncles=0 txs=0    gas=0       fees=0            elapsed="685.873µs"
+INFO [04-17|14:16:41.585] Commit new sealing work                  number=31 sealhash=443d44..1787ad uncles=0 txs=0    gas=0       fees=0            elapsed=1.443ms
+INFO [04-17|14:17:03.507] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.925ms     mgasps=0.000   number=31 hash=6eddc4..90ad43 dirty=1.00MiB
+INFO [04-17|14:17:03.508] 🔗 block reached canonical chain          number=24 hash=97e94c..763eb9
+INFO [04-17|14:17:03.509] Commit new sealing work                  number=32 sealhash=2ff209..f54733 uncles=0 txs=0    gas=0       fees=0            elapsed=1.174ms
+INFO [04-17|14:17:03.510] Commit new sealing work                  number=32 sealhash=2ff209..f54733 uncles=0 txs=0    gas=0       fees=0            elapsed=2.100ms
+INFO [04-17|14:17:13.544] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.353ms     mgasps=0.000   number=32 hash=4be480..2be294 dirty=1.00MiB
+INFO [04-17|14:17:13.545] Commit new sealing work                  number=33 sealhash=5aede9..a22fa5 uncles=0 txs=0    gas=0       fees=0            elapsed="277.447µs"
+INFO [04-17|14:17:13.545] Commit new sealing work                  number=33 sealhash=5aede9..a22fa5 uncles=0 txs=0    gas=0       fees=0            elapsed="732.133µs"
+INFO [04-17|14:17:19.418] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=9.818ms     mgasps=0.000   number=33 hash=560a6c..9b6125 dirty=1.00MiB
+INFO [04-17|14:17:19.419] Commit new sealing work                  number=34 sealhash=8104e4..e20f53 uncles=0 txs=0    gas=0       fees=0            elapsed="232.163µs"
+INFO [04-17|14:17:19.420] Commit new sealing work                  number=34 sealhash=8104e4..e20f53 uncles=0 txs=0    gas=0       fees=0            elapsed=1.253ms
+INFO [04-17|14:18:05.721] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=16.876ms    mgasps=0.000   number=34 hash=7f8a64..6802fd dirty=1.00MiB
+INFO [04-17|14:18:05.722] Commit new sealing work                  number=35 sealhash=19d5c6..3d3999 uncles=0 txs=0    gas=0       fees=0            elapsed="396.292µs"
+INFO [04-17|14:18:05.723] Commit new sealing work                  number=35 sealhash=19d5c6..3d3999 uncles=0 txs=0    gas=0       fees=0            elapsed=1.220ms
+INFO [04-17|14:18:05.731] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=8.359ms     mgasps=0.000   number=34 hash=d16d78..8ef59b dirty=1.00MiB
+INFO [04-17|14:18:05.732] Commit new sealing work                  number=35 sealhash=cb0fb3..bf7242 uncles=1 txs=0    gas=0       fees=0            elapsed="256.647µs"
+INFO [04-17|14:18:14.453] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=17.275ms    mgasps=0.000   number=35 hash=6fd9e0..e9241e dirty=1.00MiB
+INFO [04-17|14:18:14.454] Commit new sealing work                  number=36 sealhash=e4e45a..0ec44f uncles=0 txs=0    gas=0       fees=0            elapsed="282.756µs"
+INFO [04-17|14:18:14.455] Commit new sealing work                  number=36 sealhash=e4e45a..0ec44f uncles=0 txs=0    gas=0       fees=0            elapsed="934.071µs"
+INFO [04-17|14:18:42.187] Successfully sealed new block            number=36 sealhash=e4e45a..0ec44f hash=c8c69f..d75111 elapsed=27.733s
+INFO [04-17|14:18:42.188] 🔨 mined potential block                  number=36 hash=c8c69f..d75111
+INFO [04-17|14:18:42.188] Commit new sealing work                  number=37 sealhash=39b562..345680 uncles=0 txs=0    gas=0       fees=0            elapsed="843.827µs"
+INFO [04-17|14:18:42.189] Commit new sealing work                  number=37 sealhash=39b562..345680 uncles=0 txs=0    gas=0       fees=0            elapsed=1.410ms
+INFO [04-17|14:18:48.543] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.212ms     mgasps=0.000   number=37 hash=d275ae..4a665b dirty=1.00MiB
+INFO [04-17|14:18:48.544] Commit new sealing work                  number=38 sealhash=3f18d3..9348f1 uncles=0 txs=0    gas=0       fees=0            elapsed="470.502µs"
+INFO [04-17|14:18:48.545] Commit new sealing work                  number=38 sealhash=3f18d3..9348f1 uncles=0 txs=0    gas=0       fees=0            elapsed=1.015ms
+INFO [04-17|14:19:06.245] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=9.277ms     mgasps=0.000   number=38 hash=75f16b..42d97f dirty=1.00MiB
+INFO [04-17|14:19:06.246] Commit new sealing work                  number=39 sealhash=ec08d8..118187 uncles=0 txs=0    gas=0       fees=0            elapsed="330.749µs"
+INFO [04-17|14:19:06.246] Commit new sealing work                  number=39 sealhash=ec08d8..118187 uncles=0 txs=0    gas=0       fees=0            elapsed="929.954µs"
+INFO [04-17|14:19:09.234] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.512ms     mgasps=0.000   number=39 hash=8799ab..b2b35f dirty=1.01MiB
+INFO [04-17|14:19:09.235] Commit new sealing work                  number=40 sealhash=0f4261..e6a8af uncles=0 txs=0    gas=0       fees=0            elapsed="331.182µs"
+INFO [04-17|14:19:09.236] Commit new sealing work                  number=40 sealhash=0f4261..e6a8af uncles=0 txs=0    gas=0       fees=0            elapsed=1.185ms
+INFO [04-17|14:19:14.181] Imported new chain segment               blocks=1 txs=0    mgas=0.000  elapsed=7.988ms     mgasps=0.000   number=40 hash=6c338a..b8e3ec dirty=1.01MiB
+INFO [04-17|14:19:14.181] Commit new sealing work                  number=41 sealhash=5b1f0f..a442bb uncles=0 txs=0    gas=0       fees=0            elapsed="288.714µs"
+INFO [04-17|14:19:14.183] Commit new sealing work                  number=41 sealhash=5b1f0f..a442bb uncles=0 txs=0    gas=0       fees=0            elapsed=1.477ms
+INFO [04-17|14:19:15.303] Looking for peers                        peercount=2 tried=0 static=4
+INFO [04-17|14:19:17.495] Successfully sealed new block            number=41 sealhash=5b1f0f..a442bb hash=0c88fd..95d115 elapsed=3.313s
+INFO [04-17|14:19:17.495] 🔨 mined potential block                  number=41 hash=0c88fd..95d115
+INFO [04-17|14:19:17.495] Commit new sealing work                  number=42 sealhash=74c16b..a87718 uncles=0 txs=0    gas=0       fees=0            elapsed="573.855µs"
+INFO [04-17|14:19:17.496] Commit new sealing work                  number=42 sealhash=74c16b..a87718 uncles=0 txs=0    gas=0       fees=0            elapsed=1.069ms
+INFO [04-17|14:19:21.349] Got interrupt, shutting down... 
+WARN [04-17|14:19:21.352] HTTP server graceful shutdown timed out 
+INFO [04-17|14:19:21.352] HTTP server stopped                      endpoint=[::]:8548
+WARN [04-17|14:19:21.354] HTTP server graceful shutdown timed out 
+INFO [04-17|14:19:21.354] HTTP server stopped                      endpoint=[::]:8648
+WARN [04-17|14:19:21.356] HTTP server graceful shutdown timed out 
+INFO [04-17|14:19:21.357] HTTP server stopped                      endpoint=127.0.0.1:8748
+INFO [04-17|14:19:21.357] Ethereum protocol stopped 
+INFO [04-17|14:19:21.359] Transaction pool stopped 
+INFO [04-17|14:19:21.365] Writing cached state to disk             block=41 hash=0c88fd..95d115 root=69f2c6..336234
+INFO [04-17|14:19:21.391] Persisted trie from memory database      nodes=4011      size=468.47KiB time=25.567449ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=720 livesize=118.42KiB
+INFO [04-17|14:19:21.392] Writing cached state to disk             block=40 hash=6c338a..b8e3ec root=804581..787185
+INFO [04-17|14:19:21.392] Persisted trie from memory database      nodes=2         size=361.00B   time="391.308µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=718 livesize=118.07KiB
+INFO [04-17|14:19:21.393] Writing snapshot state to disk           root=fd159d..e8833e
+INFO [04-17|14:19:21.393] Persisted trie from memory database      nodes=0         size=0.00B     time="22.425µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=718 livesize=118.07KiB
+INFO [04-17|14:19:21.394] Writing clean trie cache to disk         path=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/triecache threads=8
+INFO [04-17|14:19:21.452] Persisted the clean trie cache           path=/mnt/c/Users/ali/PycharmProjects/new/project-root/consensus/pow/ethereum/node4/geth/triecache elapsed=57.114ms
+INFO [04-17|14:19:21.452] Blockchain stopped 
