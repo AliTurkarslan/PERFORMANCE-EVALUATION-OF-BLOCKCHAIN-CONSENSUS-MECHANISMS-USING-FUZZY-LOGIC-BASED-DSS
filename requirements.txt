@@ -1,0 +1,31 @@
+# Core dependencies
+web3==6.12.0
+py-solc-x==2.0.3
+eth-utils==5.2.0
+eth-abi==5.2.0
+eth-account==0.11.3
+rlp==4.1.0
+
+# Data handling and math
+numpy==2.2.5
+pandas==2.2.3
+scikit-learn==1.6.1
+scikit-fuzzy==0.5.0
+matplotlib==3.10.1
+seaborn==0.13.2
+scipy==1.15.2
+
+# CLI & parsing
+argparse==1.4.0
+python-dateutil==2.9.0.post0
+pyparsing==3.2.3
+packaging==23.2
+
+# JSON Schema / validation
+jsonschema==4.23.0
+
+# Optional (diagnostics, types, plots)
+networkx==3.4.2
+hexbytes==0.3.1
+cytoolz==1.0.1
+joblib==1.4.2

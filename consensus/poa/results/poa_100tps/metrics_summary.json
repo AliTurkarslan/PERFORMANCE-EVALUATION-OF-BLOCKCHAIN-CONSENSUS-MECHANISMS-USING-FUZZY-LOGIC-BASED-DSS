@@ -1,0 +1,15 @@
+{
+    "total_tx": 6000,
+    "success_tx": 6000,
+    "success_rate": 1.0,
+    "realized_tps": 35.294117647058826,
+    "avg_latency": 14.8175,
+    "p95_latency": 34.0,
+    "latency_variance": 80.41592973828972,
+    "avg_gas_used": 46443.56,
+    "total_gas_used": 278661360,
+    "gas_std_dev": 10.48354508040619,
+    "avg_block_time": 22.5,
+    "energy_joule_total": 2550.0,
+    "energy_per_tx": 0.425
+}
